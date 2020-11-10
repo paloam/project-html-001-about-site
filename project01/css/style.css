@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(50, 50,50);
+    height: 4em; 
+    line-height: 4em;
+
+}
+header h3 {
+    margin-top: 0;
+    padding: 2em; 
+    
+}
+
+#main-nav {
+    padding-left: 2em;
+}
+
+#main-nav ul {
+    list-style-type: none;
+}
+
+#main-nav ul li {
+    display: inline-block;
+}
+
+section {
+    padding: 1em 2em;
+    background-color: rgb(200, 200, 200);
+    border: solid 1px white
+}
+
+.img-container img {
+    width: 38%;
+    margin: 5%;
+}
+
+.tulajdonságok-box {
+    display: inline-block;
+    width: 28%;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    height: 5em;
+    line-height: 2em;
+    font-size: 2em;
+    border-radius: 3px;
+    border: solid 1px white;
+    box-shadow: 0 0 3px black;
+
+}
+
+/* works page. */
+
+#works-section article {
+    border-bottom: solid 2px white;
+    margin-bottom: 2em;
+
+}
+#works-section article img {
+    width: 25%;
+    margin-right: 2%;
+}
+
+#works-section article .right content {
+    display: inline-block;
+    width: 70%;
+}
+
+/* Gallery page */
+
+.gallery-container img {
+    width: 30%;
+    margin: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    .tulajdonságok-box {
+        width: 100%;
+    }
+    .gallery-container img {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+}
